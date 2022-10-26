@@ -1,17 +1,10 @@
-# Meu primeiro projeto Python!!
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
+sexo = input("Digite seu sexo: ")
+dobro = idade * 2
 
-print("HelloWorld")
-
-
-nome = "Felipe Castro"
-idade = 19
-
-print(nome)
-
-print("Eu tenho " +str(idade) + " anos")
-print("Eu tenho {} anos".format(idade))
-print("Meu nome é {} e tenho {} anos".format(nome,idade))
-
+print ("Oi {} voce tem {} anos e é do sexo {}".format(nome,idade,sexo))
+print("O dobro da idade informada é {}".format(dobro))
 
 
 
